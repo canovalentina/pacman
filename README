@@ -1,0 +1,16 @@
+README 
+
+Pacman 
+
+This code represents an implementation of Pacman, the final project for my Introductory programming class, CSCI0150: Introduction to Object Oriented Programming. It uses Swing for Graphics. One of the most interesting aspects of this game is that it implements a Breadth First Search to act as the "Artificial Intelligence" of the ghosts when foinding the shortest path to Pacman.
+
+The general layout of the Program is:
+-An App class to launch the program
+-A GamePanel class which contains most of the game functionality
+-Pacman, Dot, Energizer, Ghost classes which represent the game components
+-Ghost subclasses, which set a specific target and color (Pinky, Blinky, Inky, Clyde)
+-Collidable interface for code generics 
+-TimerListeners which take care of the game animation 
+-Other panels which take care of the graphical components of the game
+
+Specific explanations of the algorithms and organization of the design can be found in the code comments. 
